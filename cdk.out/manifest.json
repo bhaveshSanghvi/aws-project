@@ -1,0 +1,547 @@
+{
+  "version": "9.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "AwsDevhourStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "AwsDevhourStack.template.json"
+      },
+      "metadata": {
+        "/AwsDevhourStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.cc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080",
+              "id": "cc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080",
+              "packaging": "zip",
+              "sourceHash": "cc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080",
+              "s3BucketParameter": "AssetParameterscc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080S3Bucket1401E42F",
+              "s3KeyParameter": "AssetParameterscc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080S3VersionKey3454BD9A",
+              "artifactHashParameter": "AssetParameterscc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080ArtifactHash76911D11"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.ts:431:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:171:23)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "AwsdevhourStack.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:657:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:151:40)",
+              "AssetCode.bind (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:251:20)",
+              "new Function (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:572:29)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:35:19)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/cdk-rekn-imgagebucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "cdkreknimgagebucketABE44D40",
+            "trace": [
+              "new Bucket (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1326:22)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:18:25)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/cdk-rekn-imgagebucket/Notifications/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "cdkreknimgagebucketNotificationsEB03BA1D",
+            "trace": [
+              "BucketNotifications.createResourceOnce (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.ts:109:23)",
+              "BucketNotifications.addNotification (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.ts:56:27)",
+              "Bucket.addEventNotification (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1449:24)",
+              "S3EventSource.bind (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda-event-sources\\lib\\s3.ts:31:19)",
+              "Function.addEventSource (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:344:12)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:46:11)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/cdk-rekn-imgagebucket/AllowBucketNotificationsToAwsDevhourStackrekognitionFunctionBFE464EE": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "cdkreknimgagebucketAllowBucketNotificationsToAwsDevhourStackrekognitionFunctionBFE464EEBE73AA0E",
+            "trace": [
+              "Function.addPermission (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:245:5)",
+              "LambdaDestination.bind (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3-notifications\\lib\\lambda.ts:22:15)",
+              "BucketNotifications.addNotification (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.ts:60:32)",
+              "Bucket.addEventNotification (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1449:24)",
+              "S3EventSource.bind (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda-event-sources\\lib\\s3.ts:31:19)",
+              "Function.addEventSource (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:344:12)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:46:11)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/imageBucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "imageBucket",
+            "trace": [
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/ImageLabels/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ImageLabelsE524135D",
+            "trace": [
+              "new Table (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:1092:18)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:26:19)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/ddbTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ddbTable",
+            "trace": [
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:30:5)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/rekognitionFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "rekognitionFunctionServiceRole85A1F6FD",
+            "trace": [
+              "new Role (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:327:18)",
+              "new Function (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:552:31)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:35:19)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/rekognitionFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "rekognitionFunctionServiceRoleDefaultPolicy92A8E60B",
+            "trace": [
+              "new Policy (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:154:22)",
+              "Role.addToPrincipalPolicy (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:368:28)",
+              "Function.addToPrincipal (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:168:61)",
+              "Function.addToPrincipalOrResource (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:119:26)",
+              "Bucket.grant (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:726:27)",
+              "Bucket.grantRead (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:585:17)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:47:17)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/rekognitionFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "rekognitionFunctionAC00BB5D",
+            "trace": [
+              "new Function (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:614:35)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:35:19)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/AssetParameters/cc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameterscc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080S3Bucket1401E42F",
+            "trace": [
+              "new FileAssetParameters (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "AwsdevhourStack.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:657:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:151:40)",
+              "AssetCode.bind (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:251:20)",
+              "new Function (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:572:29)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:35:19)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/AssetParameters/cc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameterscc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080S3VersionKey3454BD9A",
+            "trace": [
+              "new FileAssetParameters (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "AwsdevhourStack.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:657:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:151:40)",
+              "AssetCode.bind (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:251:20)",
+              "new Function (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:572:29)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:35:19)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/AssetParameters/cc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameterscc8f944a5832c18eb547ebfaadbe96941ce0e5faf16f16d72497941a160fe080ArtifactHash76911D11",
+            "trace": [
+              "new FileAssetParameters (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:154:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:74:19)",
+              "AwsdevhourStack.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:657:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:78:25)",
+              "new Asset (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:151:40)",
+              "AssetCode.bind (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:251:20)",
+              "new Function (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:572:29)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:35:19)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC",
+            "trace": [
+              "new Role (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:327:18)",
+              "new NotificationsResourceHandler (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.ts:54:18)",
+              "Function.singleton (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.ts:39:16)",
+              "BucketNotifications.createResourceOnce (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.ts:107:55)",
+              "BucketNotifications.addNotification (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.ts:56:27)",
+              "Bucket.addEventNotification (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1449:24)",
+              "S3EventSource.bind (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda-event-sources\\lib\\s3.ts:31:19)",
+              "Function.addEventSource (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:344:12)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:46:11)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36",
+            "trace": [
+              "new Policy (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:154:22)",
+              "Role.addToPrincipalPolicy (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:368:28)",
+              "Role.addToPolicy (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:376:17)",
+              "new NotificationsResourceHandler (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.ts:62:10)",
+              "Function.singleton (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.ts:39:16)",
+              "BucketNotifications.createResourceOnce (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.ts:107:55)",
+              "BucketNotifications.addNotification (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.ts:56:27)",
+              "Bucket.addEventNotification (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1449:24)",
+              "S3EventSource.bind (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda-event-sources\\lib\\s3.ts:31:19)",
+              "Function.addEventSource (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:344:12)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:46:11)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db8347ECC3691",
+            "trace": [
+              "new NotificationsResourceHandler (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.ts:78:22)",
+              "Function.singleton (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.ts:39:16)",
+              "BucketNotifications.createResourceOnce (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.ts:107:55)",
+              "BucketNotifications.addNotification (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.ts:56:27)",
+              "Bucket.addEventNotification (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.ts:1449:24)",
+              "S3EventSource.bind (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda-event-sources\\lib\\s3.ts:31:19)",
+              "Function.addEventSource (C:\\aws-devhour\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:344:12)",
+              "new AwsdevhourStack (C:\\aws-devhour\\lib\\aws-devhour-stack.ts:46:11)",
+              "Object.<anonymous> (C:\\aws-devhour\\bin\\aws-devhour.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\aws-devhour\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\aws-devhour\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:51:24)",
+              "C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:140:5",
+              "visit (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:200:5)",
+              "visit (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:196:5)",
+              "injectMetadataResources (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:131:3)",
+              "Object.synthesize (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:188:23)",
+              "process.<anonymous> (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (C:\\aws-devhour\\node_modules\\source-map-support\\source-map-support.js:495:21)"
+            ]
+          }
+        ],
+        "/AwsDevhourStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:60:27)",
+              "C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:140:5",
+              "visit (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:200:5)",
+              "visit (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:196:5)",
+              "injectMetadataResources (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:131:3)",
+              "Object.synthesize (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:188:23)",
+              "process.<anonymous> (C:\\aws-devhour\\node_modules\\@aws-cdk\\core\\lib\\app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (C:\\aws-devhour\\node_modules\\source-map-support\\source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
